@@ -110,7 +110,11 @@
 
                                     for (EducationModel educationModel : educationModels) {
                                         out.println(educationModel.getEducationTime() + "&nbsp;<br>");
-                                        out.println("<b>" + educationModel.getEducationalInstitution() + ",</b> " + educationModel.getEducationalInstitutionLocation() + "<br>");
+                                        if (educationModel.getEducationalInstitutionLocation().equals("")){
+                                            out.println("<b>" + educationModel.getEducationalInstitution() + "</b><br>");
+                                        } else {
+                                            out.println("<b>" + educationModel.getEducationalInstitution() + ",</b> " + educationModel.getEducationalInstitutionLocation() + "<br>");
+                                        }
                                         out.println(educationModel.getDegree());
 
                                         out.println("<ul class=\"u-custom-font u-font-montserrat u-text u-text-5\">");
@@ -192,7 +196,13 @@
 
                                         if (skillsModel.getSlqDatabases().length > 0) {
                                             out.println("<b>SQL: </b>");
-                                            for (String sdb : skillsModel.getSlqDatabases()) {
+                                            String[] slqDatabases = skillsModel.getSlqDatabases();
+                                            for (int i = 0; i < slqDatabases.length; i++) {
+                                                String sdb = slqDatabases[i];
+                                                if(i == slqDatabases.length - 1){
+                                                    out.println(sdb);
+                                                    break;
+                                                }
                                                 out.println(sdb + ", ");
                                             }
                                             out.println("</ul><br>");
@@ -200,7 +210,13 @@
 
                                         if (skillsModel.getNosqlDatabases().length > 0) {
                                             out.println("<b>NoSQL: </b>");
-                                            for (String nsdb : skillsModel.getNosqlDatabases()) {
+                                            String[] nosqlDatabases = skillsModel.getNosqlDatabases();
+                                            for (int i = 0; i < nosqlDatabases.length; i++) {
+                                                String nsdb = nosqlDatabases[i];
+                                                if (i == nosqlDatabases.length - 1){
+                                                    out.println(nsdb);
+                                                    break;
+                                                }
                                                 out.println(nsdb + ", ");
                                             }
                                         }
