@@ -60,7 +60,7 @@ public class InMemoryDataProvider implements DataProvider {
 
 
         UserModel userModel1 = new UserModel(
-                2, "Artur", "Zadniprianets", "Java Software Engineer", "https://i.imgur.com/5NTWD65.jpeg",
+                2, "Artur", "Zadniprianets", "Java Software Engineer", "https://i.imgur.com/YL71Rfa.jpg",
                 new ContactsModel("Kyiv, Ukraine",
                         "+38 (097) 833-8513",
                         "ArchiBaltika",
