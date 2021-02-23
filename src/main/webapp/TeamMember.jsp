@@ -160,7 +160,7 @@
                                     out.println("<a class=\"u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2\"" +
                                             " href=\"mailto:" + contactsModel.getEmail() + "\">" + contactsModel.getEmail() + "</a><br>");
                                     out.println("<a class=\"u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3\"" +
-                                            " href=" + contactsModel.getLinkedInLink() + "\">" + contactsModel.getLinkedInLink().substring(contactsModel.getLinkedInLink().indexOf('w')) + "</a><br>");
+                                            " href=\"" + contactsModel.getLinkedInLink() + "\">" + contactsModel.getLinkedInLink().substring(contactsModel.getLinkedInLink().indexOf('w')) + "</a><br>");
                                     out.println("<a class=\"u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4 \"" +
                                             " href=\"" + contactsModel.getGithubLink() + "\">" + contactsModel.getGithubLink().substring(contactsModel.getLinkedInLink().indexOf('w')) + "</a>");
                                 %>

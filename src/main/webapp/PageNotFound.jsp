@@ -1,11 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 015 15.02.21
-  Time: 9:34
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html style="font-size: 16px;">
 <head>
@@ -14,16 +6,12 @@
     <meta name="keywords" content="Team 1 Lab 1">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Страница 1</title>
+    <title>Page not found</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="PageNotFound.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <meta property="og:title" content="Page not found">
-    <meta property="og:type" content="website">
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:url" content="index.html">
 </head>
 <body class="u-body u-stick-footer">
     <header class="u-clearfix u-header u-header" id="sec-bd27"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -68,7 +56,6 @@
         <img src="https://i.imgur.com/DiONIJb.png" alt="Page not found image" class="u-image u-image-default u-preserve-proportions u-image-1" data-image-width="150" data-image-height="83">
     </div>
 </section>
-
 
 <footer class="u-align-center u-clearfix u-grey-80 u-footer" id="sec-e0c2">
     <div class="u-clearfix u-sheet u-sheet-1">
